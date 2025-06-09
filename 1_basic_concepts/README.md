@@ -3,12 +3,12 @@
 ### Concept
 You'll build a simple command-line application that allows a user to define a few recipes, calculate their total calories (based on ingredient calories), and potentially flag recipes that exceed a certain calorie limit.
 
-### Why it fits the criteria:
+### Why it fits the criteria
 - Basic Go Syntax: You'll be writing pure Go code.
 - Sub-2-hr
 - Variables:
-    Declare variables for recipe names, ingredient names, calorie counts, total calories, user input, etc.
-    Example: `var recipeName string`, `var totalCalories float64`
+    - Declare variables for recipe names, ingredient names, calorie counts, total calories, user input, etc. 
+    - Example: `var recipeName string`, `var totalCalories float64`
 - Data Types:
     - string for names.
     - float64 for calorie counts (allows for decimals).
