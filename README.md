@@ -1,4 +1,6 @@
 # super-go-refresh
+I have always found it more fun to go over stff by building projects. So, that is what I will do here. Each sub-directory will cover a bunch of concepts. The `README.md` in each directory will cover what it covers. Each directory serves as a breakpoint for the project, but I wil try to maintain some continuity.
+
 Refresher for basic Go concepts.
 
 Agenda:
