@@ -29,7 +29,7 @@ You'll build a simple command-line application that allows a user to define a fe
 - Functions:
     Create functions like:
     - addRecipe(): Prompts user for recipe details.
-    - calculateTotalCalories(ingredients []Ingredient): Takes a slice of ingredients and returns the total calorie count.
+    - calculateTotalCalories(`ingredients []Ingredient`): Takes a slice of ingredients and returns the total calorie count.
     - displayRecipe(recipe Recipe): Prints recipe details.
     - mainMenu(): Displays menu options and handles user input.
 - Packages, Imports, Exports:
@@ -39,7 +39,7 @@ You'll build a simple command-line application that allows a user to define a fe
     - errors: To create custom error types (optional, but good for demonstrating).
     - Custom package (optional but good for demonstration): Create a small sub-directory models/ with models.go containing your Ingredient and Recipe structs. This demonstrates how to import and use types from other packages. Export these structs and any related helper functions (by capitalizing their first letter).
 - Type Casting, Interface:
-    - Type Casting: When converting user input (string) to float64 using strconv.ParseFloat.
+    - Type Casting: When converting user input (`string`) to float64 using `strconv.ParseFloat`.
     - Interface (conceptual): While a full-blown interface implementation might be overkill for a sub-2-hour project, you can introduce the idea of an interface. For instance, imagine if you had different types of "food items" (e.g., Ingredient, PreparedMeal) and wanted a function PrintNutritionalInfo(item Nutritious) where Nutritious is an interface with a GetCalories() method. You could simply define the Nutritious interface and have your Ingredient struct implement it (by having a GetCalories() method). You wouldn't need multiple concrete types to demonstrate the concept.
 - Arrays, Slices, Maps:
     - Slices: Most useful for storing a dynamic list of Ingredient structs within a Recipe struct (`[]Ingredient`).
