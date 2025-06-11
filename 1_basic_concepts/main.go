@@ -2,6 +2,10 @@ package main
 
 import "fmt"
 
+type food interface {
+	isHighCalorie() bool
+}
+
 type Ingridient struct {
 	Name     string
 	Calories float64
@@ -44,6 +48,16 @@ func (r *Recipie) TalculatetotalCalories() {
 	r.totalCalories = totalCals
 }
 
+func judge(f food) {
+	// fmt.Println(f)
+	if _, ok := f.(Ingridient); ok {
+		fmt.Println("Judging food ingridient")
+	} else if _, ok := f.(Recipie); ok {
+		fmt.Println("Judging food recipie")
+	}
+	fmt.Println("Is it high calorie?", f.isHighCalorie())
+}
+
 func main() {
 	ingridient1 := Ingridient{
 		Name:     "Pepper",
@@ -71,5 +85,7 @@ func main() {
 	recpie1.TalculatetotalCalories()
 
 	recpie1.displayRecipie()
-	fmt.Println(recpie1.isHighCalorie())
+	judge(recpie1)
+	judge(ingridient1)
+	judge(ingridient2)
 }
