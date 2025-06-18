@@ -18,8 +18,8 @@ Agenda:
     - [x] Make, Structs
     - [x] Interface
     - [x] Go Modules
+    - [x] Pointers
 - [ ] Handling JSON
-- [ ] [Optional] Cobra CLI
 - [ ] HTTP Handling
     - [ ] Native
     - [ ] [Optional] Gin
@@ -32,7 +32,6 @@ Agenda:
 - [ ] Mutex
 - [ ] Scheduler
 - [ ] Generics
-- [ ] Pointers
 - [ ] Logging
     - [ ] log/slog
     - [ ] [Optional] zap
@@ -40,6 +39,7 @@ Agenda:
 - [ ] [Optional] RTC
     - [ ] Melody
     - [ ] Centrifugo
+- [ ] [Optional] Cobra CLI
 - [ ] [Low priority] Microservice tools
     - [ ] gRPC-GO
     - [ ] Protobufs
