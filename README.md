@@ -5,25 +5,25 @@ Refresher for basic Go concepts.
 
 Agenda:
 
-- [ ] Basic syntax
-    - [ ] Variables
-    - [ ] Data Types
-    - [ ] Loops
-    - [ ] Conditionals
-    - [ ] Error, Panic, Recover
-    - [ ] Functions
-    - [ ] Packages, mports, exports
-    - [ ] Type Casting, Interface
-    - [ ] Arrays, Slices, Maps
-    - [ ] Make, Structs
-- [ ] Go Modules
+- [x] 1_Basic_syntax
+    - [x] Variables
+    - [x] Data Types
+    - [x] Loops
+    - [x] Conditionals
+    - [x] Error, Panic, Recover
+    - [x] Functions
+    - [x] Packages, mports, exports
+    - [x] Type Casting, Interface
+    - [x] Arrays, Slices, Maps
+    - [x] Make, Structs
+    - [x] Interface
+    - [x] Go Modules
 - [ ] Handling JSON
 - [ ] [Optional] Cobra CLI
 - [ ] HTTP Handling
     - [ ] Native
     - [ ] [Optional] Gin
     - [ ] [Optional] Gorilla
-- [ ] Interface
 - [ ] Context
 - [ ] Goroutines
 - [ ] Channels
